@@ -1,0 +1,95 @@
+nav{
+  background: rgb(2, 2, 48);
+  text-align: center;
+}
+body {
+  background-color: rgb(130, 106, 251);
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  background-color: #fff;
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="file"], input[type="submit"] {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: rgb(130, 106, 251);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #5d4eca;
+}
+/* set font for the entire page */
+body {
+  font-family: Arial, sans-serif;
+    background-color: rgb(130, 106, 251);
+}
+
+/* style for the header */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* style for the form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* style for the form inputs */
+input[type=text], input[type=file] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* style for the submit button */
+/* style for the form labels */
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* style for the form input fields */
+input[type=text] {
+  height: 40px;
+}
+
+/* style for the file input field */
+input[type=file] {
+  border: none;
+}
+
+/* style for the error message */
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}

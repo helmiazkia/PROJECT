@@ -1,0 +1,46 @@
+
+/*kalau navbar di ukran 994 akan di tengah*/
+@media screen and (max-width: 500px) {
+
+  }
+nav{
+  background: rgb(2, 2, 48);
+  text-align: center;
+  
+}
+.carusel-inner{
+  image-resolution: 8px;
+  
+}
+table {
+  width: 75%;
+  border-collapse: collapse;
+  margin: 50px 150px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #8c9aad;
+}
+td{
+  background-color: white;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+body{
+  background: rgb(130, 106, 251);
+}
+
+
+
+
